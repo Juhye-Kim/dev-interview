@@ -10,3 +10,4 @@
   - 자료구조의 장단점, 차이점, 동작 원리 정리하기
 - [Javascript](Javascript/README.md)
 - [네트워크](./네트워크/README.md)
+- [운영체제](./운영체제/README.md)
