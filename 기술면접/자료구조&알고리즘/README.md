@@ -1,4 +1,4 @@
-### Array, LinkedList 차이점?
+## Array, LinkedList
 
 - 배열 = 데이터들이 순서대로 늘어선 형식
   - 원하는 데이터에 바로 접근 가능 (random access), O(1)
@@ -11,29 +11,25 @@
 
 > 삽입/삭제가 빈번하면 연결리스트! 데이터 접근만 필요하면 배열!
 
-Q. 큐는 Array, LinkedList 중 어느것으로 구현하는게 좋을까요?
-
+**Q. 큐는 Array, LinkedList 중 어느것으로 구현하는게 좋을까요?**
 - LinkedList
   - Array는 연산 후 객체를 앞당겨야 하지만, LinkedList는 객체 1개만 제거하면 되므로 삽입/삭제가 용이
 
-Q. 스택은 Array, LinkedList 중 어느것으로 구현하는게 좋을까요?
-
+**Q. 스택은 Array, LinkedList 중 어느것으로 구현하는게 좋을까요?**
 - Array
   - LinkedList는 객체 제거 작업이 필요하지만, Array는 삭제할 필요 없이 index를 줄이고 초기화만 하면 됨
 
-Q. Array 기반 Linked List 구현
+**Q. Array 기반 Linked List 구현**
 
-Q. Stack, Linked List, List의 차이점
+**Q. Stack, Linked List, List의 차이점**
 
-### Stack, Queue 차이점?
-
-- 답변
-  스택
+# Stack, Queue
+- 스택
   - 접시를 차곡차곡 쌓는 것 같은 구조
   - 후입선출 (마지막으로 넣는 데이터가 먼저 나옴)
   - 입출력 한 방향 (제한적 접근)
     - ex. 브라우저 뒤/앞으로 가기 (Prev Stack, Next Stack에 페이지 보관)
-      큐
+- 큐
   - 파이프같은 구조
   - 선입선출 (먼저 넣는 데이터가 먼저 나옴)
   - 데이터 입력순으로 처리할 때 주로 사용, 선입선출
@@ -41,6 +37,3 @@ Q. Stack, Linked List, List의 차이점
     - ex. 동영상 스트리밍 (다운받은 데이터가 영상재생에 충분하지 않으면, 정상적인 재생을 위해 큐에 모았다가 재생)
     - ex. 버퍼(buffer)
       - 컴퓨터 장치들이 데이터를 교환할 때, 각 장치의 속도, 시간차를 극복하기 위해 임시 기억 장치의 자료구조로 사용
-- Stack 을 사용하여 미로찾기 구현하기
-- Queue 를 사용하여 Heap 자료구조 구현하기
-- Stack 두 개로 Queue 자료구조 구현하기
