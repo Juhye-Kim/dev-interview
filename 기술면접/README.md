@@ -12,5 +12,7 @@
 3. HTML, CSS
     - [HTML](./HTML_CSS/HTML.md)
     - [CSS](./HTML_CSS/CSS.md)
-5. [네트워크](./네트워크/README.md)
-6. [운영체제](./운영체제/README.md)
+5. 네트워크
+    - [네트워크 기본](./네트워크/네트워크.md)
+    - [보안/인증](./네트워크/보안인증.md)
+7. [운영체제](./운영체제/README.md)
