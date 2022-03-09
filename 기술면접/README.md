@@ -10,7 +10,7 @@
   - 자료구조의 장단점, 차이점, 동작 원리 정리하기
 2. [Javascript](Javascript/README.md)
 3. HTML, CSS
-    - [HTML](./HTML_CSS/HTML/README.md)
-    - [CSS](./HTML_CSS/CSS/README.md)
+    - [HTML](./HTML_CSS/HTML.md)
+    - [CSS](./HTML_CSS/CSS.md)
 5. [네트워크](./네트워크/README.md)
 6. [운영체제](./운영체제/README.md)
